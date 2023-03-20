@@ -1,5 +1,4 @@
 import './App.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
 
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
@@ -23,8 +22,8 @@ function App() {
           </div>
           <div className='item-container'>
             <Routes>
-              <Route path='/' />
-              <Route path='/:username' element={<Ranking />} />
+              <Route path='/FantasySurvivorSummary' />
+              <Route path='/FantasySurvivorSummary/:username' element={<Ranking />} />
             </Routes>
           </div>
         </div>

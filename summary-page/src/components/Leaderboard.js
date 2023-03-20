@@ -40,7 +40,7 @@ function Leaderboard({ leaderboard }) {
                     {Ranking.map((ranking, index) => (
                         <tr key={index} className={`rank-${ranking.rank}`}>
                             <td>{ranking.rank}</td>
-                            <td> <Link to={`/${ranking.username}`}> {ranking.username}</Link></td>
+                            <td> <Link to={`/FantasySurvivorSummary/${ranking.username}`}> {ranking.username}</Link></td>
                             <td>{ranking.points}</td>
                         </tr>
                     )
