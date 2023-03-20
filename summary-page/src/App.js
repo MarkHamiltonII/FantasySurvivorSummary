@@ -1,15 +1,19 @@
 import './App.css';
-
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { useState } from 'react';
 
 import Ranking from './components/Ranking';
 import Leaderboard from './components/Leaderboard';
 
-let leaderboard = require('./data/league2/leaderboard.json')
+
 
 function App() {
+  const [username, setUsername] = useState('')
+  let leaderboard = require('./data/league2/leaderboard.json')
+  
+  const onClick = (username) => {
+    setUsername(username)
+  }
   return (
-    <Router>
       <div className="App">
         <header className="App-header">
           <p>
@@ -18,17 +22,13 @@ function App() {
         </header>
         <div className='data-container'>
           <div className='item-container'>
-            <Leaderboard leaderboard={leaderboard} />
+            <Leaderboard leaderboard={leaderboard} onclick={onClick} />
           </div>
           <div className='item-container'>
-            <Routes>
-              <Route path='/FantasySurvivorSummary' />
-              <Route path='/FantasySurvivorSummary/:username' element={<Ranking />} />
-            </Routes>
+            {username && <Ranking username={username} />}
           </div>
         </div>
       </div>
-    </Router>
   );
 }
 

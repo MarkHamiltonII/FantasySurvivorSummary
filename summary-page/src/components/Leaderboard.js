@@ -1,6 +1,4 @@
-import { Link } from "react-router-dom";
-
-function Leaderboard({ leaderboard }) {
+function Leaderboard({ leaderboard, onclick }) {
 
     const sortedRankings = Object.entries(leaderboard.rankings)
         .sort(([, a], [, b]) => b - a)
@@ -40,7 +38,7 @@ function Leaderboard({ leaderboard }) {
                     {Ranking.map((ranking, index) => (
                         <tr key={index} className={`rank-${ranking.rank}`}>
                             <td>{ranking.rank}</td>
-                            <td> <Link to={`/FantasySurvivorSummary/${ranking.username}`}> {ranking.username}</Link></td>
+                            <td className="selectable te" onClick={() => onclick(ranking.username)}><u>{ranking.username}</u></td>
                             <td>{ranking.points}</td>
                         </tr>
                     )

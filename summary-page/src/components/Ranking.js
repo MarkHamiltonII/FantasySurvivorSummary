@@ -1,8 +1,5 @@
-import { useParams } from "react-router-dom"
+export default function Ranking({ username }) {
 
-export default function Ranking() {
-
-    const {username} = useParams();
     const ranking = require("./../data/league2/"+username+".json")
 
     return (

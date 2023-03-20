@@ -99,3 +99,7 @@
 .headshot img {
   width: 40px;
 }
+.selectable {
+  cursor: pointer;
+  color:blue;
+}
