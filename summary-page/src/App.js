@@ -22,8 +22,8 @@ function App() {
           </div>
           <div className='item-container'>
             <Routes>
-              <Route path='/FantasySurvivorSummary' />
-              <Route path='/FantasySurvivorSummary/:username' element={<Ranking />} />
+              <Route path='/' />
+              {/* <Route path='/FantasySurvivorSummary/:username' element={<Ranking />} /> */}
             </Routes>
           </div>
         </div>
