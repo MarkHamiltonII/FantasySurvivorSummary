@@ -103,3 +103,9 @@
   cursor: pointer;
   color:blue;
 }
+
+@media (max-width: 600px) {
+  .data-container {
+    flex-direction: column;
+  }
+}
