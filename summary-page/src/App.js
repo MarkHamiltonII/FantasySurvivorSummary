@@ -22,7 +22,7 @@ function App() {
           </div>
           <div className='item-container'>
             <Routes>
-              <Route path='/' />
+              <Route path='/FantasySurvivorSummary' />
               {/* <Route path='/FantasySurvivorSummary/:username' element={<Ranking />} /> */}
             </Routes>
           </div>
