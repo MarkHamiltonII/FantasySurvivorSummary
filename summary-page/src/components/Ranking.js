@@ -11,8 +11,6 @@ export default function Ranking({ username }) {
     }
 
     const getCutoff = (index) => {
-        console.log(remaining)
-        console.log(index)
         if (index === remaining) {return 'cutoff out'}
         if (index >= remaining) {return 'out'}
         else {return ''}
