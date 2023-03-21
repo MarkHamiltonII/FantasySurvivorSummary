@@ -42,24 +42,26 @@
   margin-left: 4em;
   margin-right: 4em;
   margin-bottom: 2em;
-  background-color:aliceblue;
+  background-color: aliceblue;
 }
+
 .ranking-container {
   height: min-content;
   padding-bottom: 0;
 }
 
-.item-container table{
+.item-container table {
   margin-top: 0;
   margin-bottom: 0;
   padding-bottom: 0;
 
 }
-.item-container td{
-  vertical-align:middle;
+
+.item-container td {
+  vertical-align: middle;
 }
 
-.table-heading{
+.table-heading {
   padding-left: 1em;
   padding-right: 1em;
   padding-top: 6px;
@@ -68,40 +70,61 @@
   background-color: #282c34;
   color: white;
 }
-.table-header{
+
+.table-header {
   padding-left: 1em;
   padding-right: 1em;
   background-color: #282c34;
   color: white;
 }
 
-.rank-1{
+.rank-1 {
   background-color: gold;
 }
+
 .rank-2 {
   background-color: silver;
 }
+
 .rank-3 {
   background-color: darkorange;
 }
+
 .bg-Green {
   background-color: lightgreen;
 }
+
 .bg-Blue {
   background-color: cornflowerblue;
 }
+
 .bg-Orange {
   background-color: orange;
 }
+
 .bg-Purple {
   background-color: plum;
 }
+
+.bg-Slate {
+  background-color: slategray;
+}
+
+.cutoff {
+  border-top: 7px solid black;
+}
+
+.out {
+  opacity: 0.5;
+}
+
 .headshot img {
   width: 40px;
 }
+
 .selectable {
   cursor: pointer;
-  color:blue;
+  color: blue;
 }
 
 @media (max-width: 600px) {
