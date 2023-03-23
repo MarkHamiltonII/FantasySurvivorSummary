@@ -32,6 +32,8 @@ response = requests.get(api_url + "leaderboard/season44/league2", headers=header
 leaderboard = response.json()
 with open('summary-page/src/data/league2/leaderboard'+str(leaderboard['currentTribal'])+'.json', 'w') as f:
     json.dump(leaderboard, f, ensure_ascii=False, indent=4)
+with open('summary-page/src/data/league2/leaderboar.json', 'w') as f:
+    json.dump(leaderboard, f, ensure_ascii=False, indent=4)
 
 # Get and save current tribal
 response = requests.get(api_url + 'castaway/tribals/season44', headers=headers)
@@ -39,10 +41,10 @@ tribal_numbers = response.json()
 current_tribal = max(tribal_numbers)
 
 # Get all tribals
-# for tribal in tribal_numbers:
-#     response = requests.get(api_url + 'castaway/season/tribal' + str(tribal), headers=headers)
-#     with open('summary-page/src/data/league2/tribal'+str(tribal)+'.json', 'w') as f:
-#         json.dump(response.json(), f, ensure_ascii=False, indent=4)
+for tribal in tribal_numbers:
+    response = requests.get(api_url + 'castaway/season/tribal' + str(tribal), headers=headers)
+    with open('summary-page/src/data/league2/tribal'+str(tribal)+'.json', 'w') as f:
+        json.dump(response.json(), f, ensure_ascii=False, indent=4)
 
 response = requests.get(api_url + 'castaway/season44/tribal' + str(current_tribal), headers=headers)
 with open('summary-page/src/data/league2/current_tribal.json', 'w') as f:
