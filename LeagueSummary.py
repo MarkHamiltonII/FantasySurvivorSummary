@@ -32,7 +32,7 @@ response = requests.get(api_url + "leaderboard/season44/league2", headers=header
 leaderboard = response.json()
 with open('summary-page/src/data/league2/leaderboard'+str(leaderboard['currentTribal'])+'.json', 'w') as f:
     json.dump(leaderboard, f, ensure_ascii=False, indent=4)
-with open('summary-page/src/data/league2/leaderboar.json', 'w') as f:
+with open('summary-page/src/data/league2/leaderboard.json', 'w') as f:
     json.dump(leaderboard, f, ensure_ascii=False, indent=4)
 
 # Get and save current tribal
