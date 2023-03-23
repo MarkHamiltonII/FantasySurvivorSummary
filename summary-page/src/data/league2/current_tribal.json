@@ -144,18 +144,6 @@
         "tribeColor": "Orange"
     },
     {
-        "id": 35,
-        "firstName": "Sarah",
-        "lastName": "Wade",
-        "age": 27,
-        "currentResidence": "Chicago, IL",
-        "occupation": "Management Consultant",
-        "iconURL": "https://static.wikia.nocookie.net/survivor/images/7/78/S44_sarah_t.png",
-        "pageURL": "https://survivor.fandom.com/wiki/Sarah_Wade",
-        "tribe": "Tika",
-        "tribeColor": "Purple"
-    },
-    {
         "id": 36,
         "firstName": "Yam Yam",
         "lastName": "Arocho",
