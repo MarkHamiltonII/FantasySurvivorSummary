@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/FantasySurvivorSummary/static/css/main.1f055d75.css",
-    "main.js": "/FantasySurvivorSummary/static/js/main.8de6bf4b.js",
+    "main.js": "/FantasySurvivorSummary/static/js/main.4ab1f599.js",
     "static/media/survivant.ttf": "/FantasySurvivorSummary/static/media/survivant.3190e12296566d229896.ttf",
     "index.html": "/FantasySurvivorSummary/index.html",
     "main.1f055d75.css.map": "/FantasySurvivorSummary/static/css/main.1f055d75.css.map",
-    "main.8de6bf4b.js.map": "/FantasySurvivorSummary/static/js/main.8de6bf4b.js.map"
+    "main.4ab1f599.js.map": "/FantasySurvivorSummary/static/js/main.4ab1f599.js.map"
   },
   "entrypoints": [
     "static/css/main.1f055d75.css",
-    "static/js/main.8de6bf4b.js"
+    "static/js/main.4ab1f599.js"
   ]
 }
