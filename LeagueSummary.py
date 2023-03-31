@@ -42,7 +42,7 @@ current_tribal = max(tribal_numbers)
 
 # Get all tribals
 for tribal in tribal_numbers:
-    response = requests.get(api_url + 'castaway/season/tribal' + str(tribal), headers=headers)
+    response = requests.get(api_url + 'castaway/season44/tribal' + str(tribal), headers=headers)
     with open('summary-page/src/data/league2/tribal'+str(tribal)+'.json', 'w') as f:
         json.dump(response.json(), f, ensure_ascii=False, indent=4)
 
