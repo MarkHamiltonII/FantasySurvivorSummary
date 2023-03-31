@@ -132,18 +132,6 @@
         "tribeColor": "Green"
     },
     {
-        "id": 34,
-        "firstName": "Matthew",
-        "lastName": "Grinstead-Mayle",
-        "age": 43,
-        "currentResidence": "Columbus, OH",
-        "occupation": "Barbershop Owner",
-        "iconURL": "https://static.wikia.nocookie.net/survivor/images/b/be/S44_matthew_t.png",
-        "pageURL": "https://survivor.fandom.com/wiki/Matthew_Grinstead-Mayle",
-        "tribe": "Ratu",
-        "tribeColor": "Orange"
-    },
-    {
         "id": 36,
         "firstName": "Yam Yam",
         "lastName": "Arocho",
