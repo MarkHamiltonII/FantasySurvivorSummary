@@ -127,6 +127,11 @@
   color: blue;
 }
 
+.ranking-container a {
+  color: blue;
+  text-decoration: underline;
+}
+
 @media (max-width: 600px) {
   .data-container {
     flex-direction: column;
