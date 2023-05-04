@@ -36,6 +36,18 @@
         "tribeColor": "Green"
     },
     {
+        "id": 25,
+        "firstName": "Frannie",
+        "lastName": "Marin",
+        "age": 23,
+        "currentResidence": "St. Paul, MN",
+        "occupation": "Research Coordinator",
+        "iconURL": "https://static.wikia.nocookie.net/survivor/images/3/33/S44_frannie_t.png",
+        "pageURL": "https://survivor.fandom.com/wiki/Frannie_Marin",
+        "tribe": "Soka",
+        "tribeColor": "Green"
+    },
+    {
         "id": 26,
         "firstName": "Heidi",
         "lastName": "Lagares-Greenblatt",
