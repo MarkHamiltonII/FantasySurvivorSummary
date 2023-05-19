@@ -36,6 +36,18 @@
         "tribeColor": "Green"
     },
     {
+        "id": 28,
+        "firstName": "Jamie Lynn",
+        "lastName": "Ruiz",
+        "age": 35,
+        "currentResidence": "Mesa, AZ",
+        "occupation": "Yogi",
+        "iconURL": "https://static.wikia.nocookie.net/survivor/images/d/da/S44_jaime_t.png",
+        "pageURL": "https://survivor.fandom.com/wiki/Jaime_Lynn_Ruiz",
+        "tribe": "Ratu",
+        "tribeColor": "Orange"
+    },
+    {
         "id": 31,
         "firstName": "Lauren",
         "lastName": "Harpe",
